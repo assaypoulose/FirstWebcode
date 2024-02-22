@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #086fb9fc;
+}
+
+/* Heading styling */
+h1 {
+    color: solid black;
+    text-align: center;
+}
+
+/* Search input styling */
+#searchInput {
+    display: block;
+    width: 100%;
+    max-width: 400px; /* Adjust based on preference */
+    padding: 10px;
+    margin: 20px auto; /* Center the search box */
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+/* Brewery container styling */
+#breweriesContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px; /* Add padding for better visual separation */
+}
+
+/* Individual brewery block styling */
+#breweriesContainer div {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+}
+
+h2 {
+    color: #020912; /* Bootstrap primary color for consistency */
+    margin-top: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add responsiveness to the layout */
+@media (max-width: 600px) {
+    #searchInput {
+        width: 90%;
+    }
+}
